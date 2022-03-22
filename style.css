@@ -1,0 +1,226 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: auto;
+}
+.b{
+    background-color:rgb(13, 89, 99);
+    padding: 15px;
+    box-shadow: 0 0 10px rgb(63, 100, 100);
+    display: flex;
+    flex-direction: row;
+    position:sticky;
+    top: 0;
+    width: 100px;
+    height: 500px;
+    border-radius: 500px;
+   
+   }
+   .b a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    display: inline-block;
+    
+
+    
+}
+.b input{
+    margin-left: auto;
+}
+
+.b a:hover,
+.b input:hover{
+    background: linear-gradient(45deg,rgb(195, 201, 206),black);
+    border-radius: 50px;
+    cursor: pointer;
+    
+}
+@media (max-width: 610px) {
+    .main-nav{
+        flex-direction: column;
+    }
+}
+h1{
+    text-align:center ;
+    padding: 50px;
+}
+section{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 40px;
+}
+section{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 40px;
+}
+
+/*---------------------Articles-----------------*/
+article{
+    box-shadow: 0 0 10px rgb(26, 24, 24);
+    border-radius: 10px;
+}
+article h2{
+    background: linear-gradient(45deg,rgb(14, 80, 88),rgb(63, 100, 100));
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px 10px 0 0 ;
+}
+
+.g{
+    background-position: left ;
+}
+
+#z img{
+margin-right: 20px;
+width:100px ;
+height: 100px;
+border-radius: 200px;
+padding: 20px;
+
+    }
+    .h{
+    margin-left: 20;
+margin-bottom: 100px;
+    }
+
+
+.h{
+    transform-origin: top left;
+}
+.g {
+    text-align: center;
+    padding-left: 450px;
+}
+.u{
+    background-position:left top ;
+}
+#z{
+    height: 700px;
+    width: auto;
+}
+.a{
+    background-color:white;
+}
+   
+.project-figure{
+    border: 2px solid darkred;
+    width: 800px;
+    margin: 5px auto;
+    padding: 5px;
+    border-radius: 5px;
+}
+.project-figure:hover{
+    box-shadow: 0 0 10px darkred;
+}
+.project-zoom{
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.gallery-figure{
+    border: 2px solid rgb(34, 87, 94);
+    width: 300px;
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.gallery-figure:hover{
+    box-shadow: 0 0 10px rgb(39, 93, 100);
+}
+.gallery-zoom{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+.gallery-zoom img,
+.project-zoom img{
+    width: inherit;
+    height: inherit;
+    border-radius: 5px 5px 0 0 ;
+    transition: all 0.5s;
+}
+.gallery-zoom:hover img,
+.project-zoom:hover img{
+    border-radius: 5px 5px 0 0 ;
+    transform: scale(1.2,1.2);
+
+}
+.gallery-figure figcaption{
+    background: linear-gradient(45deg,rgb(5, 105, 105),#935348);
+    color: white;
+    padding: 10px;
+    margin-top: -5px;
+}
+.form-article{
+    text-align: center;
+    width: 400px;
+    box-shadow: 0 0 10px rgb(34, 108, 117);
+    padding: 15px;
+    margin: auto;
+    color: rgb(40, 122, 133);
+    background-color: rgb(44, 110, 119);
+    border-radius: 20px;
+    height:400px ;
+}
+.cotact-form input[type="text"],
+.cotact-form input[type="email"],
+.cotact-form input[type="password"]{
+    font-size: 18px;
+    height: 35px;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom:2px solid rgb(119, 151, 155) ;
+    text-align: center;
+    color:white;
+    margin: 5px 0;
+}
+.cotact-form input[type="text"]:focus,
+.cotact-form input[type="email"]:focus,
+.cotact-form input[type="password"]:focus{
+    border-bottom:3px solid  white;
+}
+::placeholder{
+    color:black;
+}
+.btn-primary{
+    background: linear-gradient;
+    color:black;
+    padding: 10px 40px;
+    border-radius: 50px;
+    font-size: 18px;
+    margin-top: 10px;
+    border:none;
+    outline: none;
+    }
+.btn-primary:hover{
+    box-shadow: 0 0 10px powderblue;
+    cursor: pointer;
+}
+.main-footer{
+    /*background-color: peru;*/
+    background: linear-gradient(45deg,rgb(42, 109, 109),rgb(123, 175, 175));
+    /*background: transparent;*/
+    text-align: center;
+    color: white;
+    border-radius: 10px 10px 0 0 ;
+    padding: 15px;
+}
+
+.v{
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+.c {
+    color:rgb(8, 93, 104);
+    font-style:unset;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+
+}
